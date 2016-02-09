@@ -1,0 +1,26 @@
+body {font-family: 'Archer', sans-serif; font-size: 16px}
+*[data-clearfix]:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {position: relative}
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+.login-logo {
+    margin: 2% auto;
+}
+.login-panel {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    /*outline: 1px solid dodgerblue;*/
+}
+.login-panel header {display: block; text-align: center; text-transform: uppercase; font-weight: 300; padding: 3px 0; font-family: 'Verlag-Book',sans-serif; border: 1px solid #d8d8d8; background: #ececec;
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.027), inset 0px 1px 0px rgba(255, 255, 255, 0.69), inset 0px -1px 0px rgba(0, 0, 0, 0.0187), inset 0px 15px 14px rgba(255, 255, 255, 0.57);
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.027), inset 0px 1px 0px rgba(255, 255, 255, 0.69), inset 0px -1px 0px rgba(0, 0, 0, 0.0187), inset 0px 15px 14px rgba(255, 255, 255, 0.57);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.027), inset 0px 1px 0px rgba(255, 255, 255, 0.69), inset 0px -1px 0px rgba(0, 0, 0, 0.0187), inset 0px 15px 14px rgba(255, 255, 255, 0.57);}
+.login-panel header span {display: block; width: 24px; height: 24px; font-size: 18px; padding-top: 2px; border-right: 1px solid #d2d2d2; position: absolute; left: 0; top: 0; vertical-align: middle}
+.login-panel form {display: block; border-bottom: 1px solid #d2d2d2; border-left: 1px solid #d2d2d2; border-right: 1px solid #d2d2d2; -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.58), inset 0px 0px 6px rgba(0, 0, 0, 0.07); -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.58), inset 0px 0px 6px rgba(0, 0, 0, 0.07); box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.58), inset 0px 0px 6px rgba(0, 0, 0, 0.07); padding: 10px}

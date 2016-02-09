@@ -1,0 +1,60 @@
+body {font-family: 'Archer', sans-serif; font-size: 16px}
+*[data-clearfix]:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {position: relative}
+.img-center {
+    display: block;
+    margin: 0 auto;
+}
+.dash-logo {
+    margin: 2% auto;
+}
+
+.dash-panel {
+    display: block;
+    width: 750px;
+    height: 300px;
+    margin: 0 auto;
+    /*outline: 1px solid dodgerblue;*/
+}
+.dash-panel .dash-tile {
+    display: block;
+    height: 150px;
+    width: 250px;
+    float: left;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dash-panel .dash-tile a {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 5px;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid rgba(255,255,255,0.7);
+}
+.dash-panel .dash-tile a, .dash-panel .dash-tile a span, .dash-panel .dash-tile a strong {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.dash-panel .dash-tile a:hover {
+    border: 1px solid rgb(253, 85, 13);
+}
+
+.dash-panel .dash-tile a:hover span, .dash-panel .dash-tile a:hover strong {color: rgb(253, 85, 13)}
+.dash-panel .dash-tile a span {display: block; margin: 0 auto; height: 40px; width: 40px; font-size: 40px; font-weight: 100; margin-top: 5px; color: black}
+.dash-panel .dash-tile a strong {display: block; text-align: center; color: black; padding: 5px}
+.dash-panel .dash-tile a p {font-size: 14px; color: #777; text-align: center}
+
